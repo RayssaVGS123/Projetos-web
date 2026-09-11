@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Área que contém os cards da vitrine */
+.vitrine {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Área que contém todos os cards */
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+}
+
+/* Cada card */
+.card {
+    width: 250px;
+    text-align: center;
+}
+
+/* Imagem */
+.card img {
+    width: 180px;
+    height: 220px;
+    object-fit: contain;
+}
+
+/* Preço */
+.card .valor {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.adicionar{
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(146, 14, 14);
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.tirar{
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(146, 14, 14);
+    cursor: pointer;
+    border-radius: 2px;
+}
+/* Botão comprar */
+.card .compra {
+    background-color: #4d0404;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.card .compra:hover {
+    background-color: #960303;
+}
+
+.card .compra,
+.botao-favoritar {
+    width: 150px;
+}
+
+.botoes{
+    gap: 15px;
+}

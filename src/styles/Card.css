@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* CARD PRINCIPAL */
+.card {
+    width: 300px;
+    min-height: 420px;
+
+    background: rgba(255, 255, 255, 0.96);
+
+    border-radius: 22px;
+
+    padding: 25px 20px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+
+    border: 1px solid rgba(0, 0, 0, 0.06);
+
+    transition: all 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Efeito ao passar o mouse */
+.card:hover {
+    transform: translateY(-10px);
+
+}
+
+/* IMAGEM */
+.card img {
+    width: 210px;
+    height: 210px;
+
+    object-fit: contain;
+
+    border-radius: 16px;
+
+    margin-bottom: 18px;
+
+   
+}
+
+/* Zoom suave na imagem */
+.card:hover img {
+    transform: scale(1.05);
+}
+
+/* NOME DA UNIVERSIDADE */
+.card h2 {
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 21px;
+
+    color: #292929;
+
+    margin-bottom: 20px;
+
+    line-height: 1.3;
+}
+
+/* ÁREA DOS BOTÕES */
+.botoes {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 12px;
+
+    width: 100%;
+
+    margin-top: auto;
+}
+
+/* BOTÃO DETALHES */
+.detalhes {
+    width: 180px;
+
+    background: #4d0404;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 12px;
+
+    padding: 11px 18px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    transition: all 0.3s ease;
+}
+
+.detalhes:hover {
+    background: #960303;
+
+    transform: scale(1.04);
+
+    box-shadow: 0 5px 15px rgba(230, 92, 0, 0.3);
+}
+
+/* BOTÃO FAVORITAR */
+.botao-favoritar {
+    width: 180px;
+
+    background: white;
+
+    color: #991c1c;
+
+    border: 2px solid #991c1c;
+
+    border-radius: 12px;
+
+    padding: 9px 18px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    transition: all 0.3s ease;
+}
+
+.botao-favoritar:hover {
+    background: #970d0d;
+
+    color: white;
+
+    transform: scale(1.04);
+}
