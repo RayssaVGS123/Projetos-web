@@ -1,7 +1,7 @@
-const urlApi = import.meta.env.VITE_API_URL; // base da API
+const urlApi = 'https://delivery-umtc.onrender.com/api/lojas/12/produtos'; // base da API, import.meta.env.VITE_API_URL;
 export async function listarProdutos(id) {
     // busca produtos da loja passando o id da loja
-    const resposta = await fetch(`${urlApi}/lojas/${id}/produtos`, {
+    const resposta = await fetch(`${urlApi}`, {
         method: "GET", // leitura de dados
         headers: {
             "Content-Type": "application/json", // informa o tipo de dado

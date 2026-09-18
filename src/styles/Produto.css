@@ -45,7 +45,7 @@
     margin: 5px;
     padding: 5px;
     border: none;
-    background-color: rgb(146, 14, 14);
+    background-color: rgb(109, 58, 10);
     cursor: pointer;
     border-radius: 2px;
 }
@@ -54,13 +54,13 @@
     margin: 5px;
     padding: 5px;
     border: none;
-    background-color: rgb(146, 14, 14);
+    background-color: rgb(109, 58, 10);
     cursor: pointer;
     border-radius: 2px;
 }
 /* Botão comprar */
 .card .compra {
-    background-color: #4d0404;
+    background-color: #974e0a;
     color: #fff;
     border: none;
     padding: 8px 20px;
@@ -70,7 +70,7 @@
 }
 
 .card .compra:hover {
-    background-color: #960303;
+    background-color: #5a2e05;
 }
 
 .card .compra,

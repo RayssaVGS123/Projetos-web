@@ -6,7 +6,7 @@
 
 
 header nav{
-    background-color: #970000d5;
+    background-color: #973c00d5;
 
 }
 ul {
@@ -26,5 +26,5 @@ li a {
     font-family: Arial, Helvetica, sans-serif;
 }
 li a:hover{
-    color: #460000;
+    color: #3a1b02;
 }

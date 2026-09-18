@@ -26,7 +26,6 @@ function Home() {
                 />
             )} 
            
-
             {carregando && <Spinner tamanho={32} />}
 
             {erro && <div>{erro}</div>}

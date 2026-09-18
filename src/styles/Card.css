@@ -92,7 +92,7 @@
 .detalhes {
     width: 180px;
 
-    background: #4d0404;
+    background: #5a2e05;
 
     color: white;
 
@@ -112,7 +112,7 @@
 }
 
 .detalhes:hover {
-    background: #960303;
+    background: #ac5a0e;
 
     transform: scale(1.04);
 
@@ -125,9 +125,9 @@
 
     background: white;
 
-    color: #991c1c;
+    color: #5a2e05;
 
-    border: 2px solid #991c1c;
+    border: 2px solid #5a2e05;
 
     border-radius: 12px;
 
@@ -143,7 +143,7 @@
 }
 
 .botao-favoritar:hover {
-    background: #970d0d;
+    background: #974e0a;
 
     color: white;
 

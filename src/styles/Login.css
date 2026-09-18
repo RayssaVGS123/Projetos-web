@@ -34,11 +34,12 @@ form {
 
 }
 
-.login-page{
+.login-page {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 label {
     margin-bottom: 8px;
 
@@ -70,7 +71,7 @@ input {
 
 /* QUANDO CLICAR NO INPUT */
 input:focus {
-    border-color: #4d0404;
+    border-color: #773509;
 
     box-shadow: 0 0 0 3px rgba(157, 78, 221, 0.15);
 }
@@ -87,7 +88,7 @@ button {
 
     border-radius: 10px;
 
-    background: #4d0404;
+    background: #663907;
 
     color: white;
 
@@ -101,7 +102,7 @@ button {
 }
 
 button:hover {
-    background: #960303;
+    background: #9b5a0b;
     box-shadow: 0 6px 15px rgba(123, 44, 191, 0.3);
 }
 
